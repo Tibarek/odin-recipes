@@ -1,0 +1,12 @@
+* {
+    font-family: Courier, monospace, sans-serif;
+    background-color: rgb(218, 252, 218);
+}
+
+.nav-back {
+    font-size: 22px;    
+}
+
+.text {
+    font-family: "Lato", system-ui, "-apple-system", "Segoe UI", Arial, sans-serif;
+}
