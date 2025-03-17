@@ -1,12 +1,50 @@
-* {
+body {
     font-family: Courier, monospace, sans-serif;
-    background-color: rgb(218, 252, 218);
+    margin: 0 0;
+    color: rgb(47, 79, 79);
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 35px;
+    margin: 35px 100px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(47, 79, 79);
 }
 
 .nav-back {
-    font-size: 22px;    
+    font-size: 18px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.title.main-title{
+    font-size: 30px;
 }
 
 .text {
     font-family: "Lato", system-ui, "-apple-system", "Segoe UI", Arial, sans-serif;
+}
+
+.text li{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+li, p{
+    width: 600px;
+    height: auto;
+    line-height: 1.7;
+
+}
+
+img {
+    height: auto;
+    width: 350px;
 }
