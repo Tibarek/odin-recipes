@@ -3,9 +3,13 @@ body {
     margin: 0 0;
     color: rgb(47, 79, 79);
     box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
+    flex: 1;
     padding: 35px;
     margin: 35px 100px;
 }
@@ -37,7 +41,7 @@ a {
     margin-bottom: 5px;
 }
 
-li, p{
+.text li, .text p{
     width: 600px;
     height: auto;
     line-height: 1.7;
@@ -47,4 +51,28 @@ li, p{
 img {
     height: auto;
     width: 350px;
+}
+
+.header-li{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+}
+
+.header-li li {
+    padding: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+
+}
+
+.header, .footer{
+    background-color: #eeeeee;
+    align-items: flex-end;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
